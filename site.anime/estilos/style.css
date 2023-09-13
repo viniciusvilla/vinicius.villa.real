@@ -1,0 +1,234 @@
+
+@charset "UTF-8";
+
+@font-face {
+    font-family: texto;
+    src: url('../fontes/Roboto-Medium.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: texto2;
+    src: url('../fontes/Roboto-Regular.ttf') format('opentype');
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #F8F8F6;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../imagens/planta2.jpg');
+    background-repeat:space ;
+    background-size:contain ;
+}
+
+main{
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    box-shadow: 1px 8px 10px 0px rgba(0, 0, 0, 0.288);
+    
+}
+
+header{
+
+    box-shadow: 1px 8px 10px 0px rgba(0, 0, 0, 0.288);
+    font-family: 'texto';
+    font-weight: normal;
+    background-color: grey;
+    color: white;
+    height: 150px;
+    text-align: center;
+    padding-top: 70px;
+    
+    background-image: url('../imagens/jojobb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0px 0px 10px black;
+    
+}
+
+
+article#mensagem{
+    font-family: 'texto2';
+    background-color: #F8F8F6;
+    margin: auto;
+    margin-top: 30px;
+    max-width: 180px;
+    border-style: double;
+    border-color: pink;
+    
+    
+    text-align: justify;
+
+    padding-left: 40px;
+    padding-right: 90px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+    background-image: url('../imagens/anya2.png');
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: right bottom;
+
+    text-align: justify;
+    line-height: 1.3em;
+
+    
+}
+
+
+article>h1{
+    margin-bottom: 10px;
+}
+
+section{
+   
+    background-color: white;
+    margin: auto;
+    max-width: 1000px;
+    
+}
+
+section>h1{
+    font-size: 1.8em;
+    font-family: 'texto';
+    font-weight: normal;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+
+
+section>h2{
+    font-size: 1.4em;
+    font-family: 'texto';
+    font-weight: normal;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+section>h3{
+    font-family: 'texto';
+    font-weight: normal;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 1.3em;
+   padding-left: 50px;
+   
+}
+
+section>p{
+    
+    font-family: 'texto2';
+    line-height: 1.8em;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: justify;
+
+    
+}
+
+article#resenha{
+    background-color: rgb(236, 236, 236);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 320px;
+    border-style: double;
+    border-color: pink;
+    
+    
+    text-align: justify;
+
+    padding-left: 40px;
+    padding-right: 90px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+    background-image: url('../imagens/anya2.png');
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: right bottom;
+
+    text-align: justify;
+    line-height: 1.3em;
+
+}
+
+img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+article#jojo{
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 600px;
+    box-shadow: 1px 8px 10px 0px rgba(0, 0, 0, 0.288);
+    background-image: url('../imagens/joseph-joestar-gif.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 200px;
+    
+   
+   
+    
+}
+
+article#jojo>h1{
+    margin: auto;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'texto';
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+}
+
+article#jojo>p{
+    margin: auto;
+    text-align: center;
+    font-family: 'texto2';
+    line-height: 1.8em;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

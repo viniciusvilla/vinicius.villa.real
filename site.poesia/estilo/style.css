@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+/*font-family: 'Passion One', cursive;*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/*font-family: 'Sriracha', cursive;*/
+
+@font-face {
+    font-family: 'titulo1';
+    src: url('../fontes/Cream\ Cake.otf') format('opentype');
+    font-weight: normal;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+   
+    background-color: beige;
+    text-align: center;
+    height: 150px;
+    padding-top: 50px;
+    margin: auto;
+    background-image: url('../imagens/girassol2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 8px 10px 0px rgba(0, 0, 0, 0.288);
+    background-position: center 70%;
+    color: white;
+    box-shadow: ;
+    
+
+
+}
+
+header>h1{
+    font-family: 'titulo1';
+    font-weight: normal;
+    font-size: 3em;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+}
+
+header>p{
+    font-family: 'titulo1';
+    font-weight: normal;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+section#h1{
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'titulo1';
+    font-size: 3em;
+    font-weight: normal;
+    
+    
+
+}
+
+article{
+    padding-top: 20px;
+    width: ; /* ROLAGEM LATERAL NESTE WIDTH, CUIDADOOOO*/
+    padding-left: 30px;
+    padding-bottom: 30px;
+  
+    
+}
+
+article>h1{
+    
+    padding-bottom: 30px;
+    padding-top: 50px;
+    font-family: 'titulo1';
+    font-weight: normal;
+    font-size: 3em;
+   
+   
+}
+
+article>p{
+    
+    font-family: 'Sriracha', cursive;
+    line-height: 4em;
+    width: 320px;
+    text-align: justify;
+    text-decoration: none;
+    line-height: 2em;
+    font-size: 1.2em;
+   
+    
+}
+
+section.imagem{
+    
+    
+    height: 100vh;
+    padding: 30px;
+    background-image: url('../imagens/sunset-hair2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.377);
+    margin-top: 50px;
+   
+    
+    
+}
+
+section.imagem>h1{
+   
+    font-family: 'titulo1';
+    text-align: ;
+    font-weight: normal;
+    font-size: 2.6em;
+    min-width: 300px;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 10px;
+    color: white;
+
+   
+}
+
+section.imagem>p {
+    min-width: 300px;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 10px;
+    color: white;
+    text-align: justify;
+    line-height: 1.4em;
+    font-size: 1.5;
+    font-family: 'Sriracha', cursive;
+    text-shadow: 1.2px 1.2px 1.2px black;
+    
+    
+    
+
+}
+
+
+section.haiku>h2{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    font-family: 'titulo1';
+    font-weight: normal;
+    font-size: 3em;
+}
+
+section.haiku>p{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    text-align: justify;
+    font-family: 'Sriracha', cursive;
+    font-size: 1.2em;
+    line-height: 2em;
+    
+}
+
+section#duvida{
+    
+}
+
+picture#imgrem{
+    padding-left: 30px;
+    
+    
+}
+
+picture#imgderiva{
+    padding-left: 30px;
+}
+
+picture#imgduvida{
+    padding-left: 30px;
+}
+
+body>h1{
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'titulo1';
+    font-size: 4em;
+    font-weight: ;
+}
+
+footer{
+    background-color: black;
+    margin-top: 100px;
+}
+
+footer>p{
+    color: white;
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
